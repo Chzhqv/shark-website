@@ -1,6 +1,12 @@
 /* src/index.css */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; /* This stops the side-scrolling/wobbling */
+  position: relative;
+}
+
 :root {
   --bg-dark: #0b0d10;      
   --shark-purple: #1a0b2e; 
@@ -529,4 +535,42 @@ input, .date-input { width: 100%; padding: 12px; background: #0f1214; border: 1p
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+/* MOBILE HEADER FIXES */
+@media (max-width: 900px) {
+  
+  /* 1. Hide the middle navigation links on phone */
+  .nav-links {
+    display: none; 
+  }
+
+  /* 2. Space out the Logo and Quote Button */
+  .nav-content {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px; /* Add little breathing room on edges */
+  }
+
+  /* 3. Make the Logo text smaller so it fits */
+  .nav-logo {
+    font-size: 1.1rem; /* Smaller font */
+    gap: 5px;
+  }
+  
+  .shark-icon {
+    font-size: 1.4rem; /* Smaller shark icon */
+  }
+
+  /* 4. Make the Request Quote button smaller */
+  .nav-btn {
+    padding: 8px 15px;
+    font-size: 0.8rem;
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+
+  /* 5. Fix the Contact Info bar at the very top */
+  .top-bar {
+    display: none; /* Optional: Hide the tiny top bar on mobile to save space */
+  }
 }
