@@ -542,31 +542,22 @@ input, .date-input { width: 100%; padding: 12px; background: #0f1214; border: 1p
 
 /* --- MOBILE RESPONSIVE FIXES --- */
 @media (max-width: 900px) {
-  /* Bring back social bar on mobile, stacked */
+  
+  /* 1. Header Changes */
   .top-bar { display: block; padding: 8px 0; height: auto; }
   .top-bar-content { flex-direction: column; gap: 8px; text-align: center; }
-  .contact-info { font-size: 0.75rem; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
-  .social-icons { display: flex; justify-content: center; gap: 15px; margin-bottom: 5px; }
-
-  /* Header Padding & Spacing */
-  .nav-content { padding: 10px 20px; justify-content: space-between; align-items: center; width: 100%; box-sizing: border-box; }
   .nav-links { display: none; }
-  .nav-logo { font-size: 1rem; gap: 6px; }
-  .shark-icon { font-size: 1.3rem; }
-  .nav-btn { padding: 8px 14px; font-size: 0.75rem; white-space: nowrap; }
-
-  /* FIXED: Push Hero Text down so Header doesn't cover it */
+  
+  /* 2. HERO FIX: Push text down so it is not covered by the header */
   .hero-content {
     margin-top: 0;
-    padding-top: 140px; /* Force text down below the header */
+    padding-top: 140px; /* IMPORTANT: This clears the header */
   }
   
   .hero-title { font-size: 2.5rem; }
   .content-grid { grid-template-columns: 1fr; }
   .vehicle-image { height: 300px; }
-  .addons-grid { grid-template-columns: 1fr; }
-  .contact-split { grid-template-columns: 1fr; }
   .about-split { grid-template-columns: 1fr; }
   .services-grid-2 { grid-template-columns: 1fr; }
-  .features-grid-3 { margin-top: 40px; }
+  .contact-split { grid-template-columns: 1fr; }
 }
