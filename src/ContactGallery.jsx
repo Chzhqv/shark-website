@@ -99,7 +99,7 @@ export default function ContactGallery() {
 
       {/* FOOTER */}
       <footer style={{background: '#050505', padding: '20px', textAlign: 'center', color: '#666', fontSize: '0.8rem'}}>
-        <p>© 2026 Detail Sharks. All Rights Reserved.</p>
+        <p>© 2026 Shark Detail. All Rights Reserved.</p>
       </footer>
     </>
   );
