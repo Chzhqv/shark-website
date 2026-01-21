@@ -15,10 +15,10 @@ export default function Hero() {
     >
       <div className="hero-overlay">
         <div className="container hero-content">
-          <p className="hero-subtitle">WELCOME TO DETAIL SHARKS</p>
+          <p className="hero-subtitle">WELCOME TO Shark Detail</p>
           <h1 className="hero-title">Professional Washing &<br/>Cleaning of your Car</h1>
           <p className="hero-desc">
-            The specialists Detail Sharks are experts in high-quality vehicle detailing. 
+            The specialists Shark Detail are experts in high-quality vehicle detailing. 
             We understand that you value your investment and will treat your car with as much care as you do.
           </p>
           <div className="hero-buttons">
