@@ -53,6 +53,23 @@ body {
 
 .contact-info span { margin-right: 20px; }
 
+.social-icons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.social-icon {
+  color: #999;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.social-icon:hover {
+  color: var(--accent-teal);
+}
+
 .main-nav {
   background: rgba(10, 10, 15, 0.6); /* Transparent Dark */
   backdrop-filter: blur(5px);
@@ -127,7 +144,7 @@ body {
 .hero-content {
   position: relative;
   z-index: 2;
-  margin-top: 50px; /* Push text down slightly */
+  padding-top: 120px;
 }
 
 .hero-subtitle {
@@ -551,7 +568,7 @@ input, .date-input { width: 100%; padding: 12px; background: #0f1214; border: 1p
   /* 2. HERO FIX: Push text down so it is not covered by the header */
   .hero-content {
     margin-top: 0;
-    padding-top: 140px; /* IMPORTANT: This clears the header */
+    padding-top: 180px; /* IMPORTANT: This clears the header */
   }
   
   .hero-title { font-size: 2.5rem; }
