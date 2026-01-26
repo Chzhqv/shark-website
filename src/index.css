@@ -331,7 +331,7 @@ input, .date-input { width: 100%; padding: 12px; background: #0f1214; border: 1p
   /* Pushes text down so header doesn't cover it */
   .hero-content {
     margin-top: 0;
-    padding-top: 180px; 
+    padding-top: 120px; 
   }
   
   .hero-title { font-size: 1.5rem; }
