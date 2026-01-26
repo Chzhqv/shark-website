@@ -334,7 +334,11 @@ input, .date-input { width: 100%; padding: 12px; background: #0f1214; border: 1p
     padding-top: 180px; 
   }
   
-  .hero-title { font-size: 2.5rem; }
+  .hero-title { font-size: 2rem; }
+
+  .hero-desc {
+    font-size: 0.80rem; 
+  }
 
   /* 3. CARS & TRUCKS BUTTON FIX (Fit side-by-side) */
   .vehicle-tabs {
