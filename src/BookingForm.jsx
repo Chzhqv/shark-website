@@ -89,7 +89,7 @@ export default function BookingForm() {
     };
 
     try {
-      const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbykCrSFF7_R0XW9XYeUjXwvSrptiLHqmmEpLiaJxzfEpkSLkmIaO_R6UlaW47CE1yK5/exec";
+      const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyrKV9IhURhqLoW4lKy3DiDrkgUSHBSPhmrwqxH0ppc_cxcPJIhL9GJOS-lTmjlnzJjVw/exec";
       
       await fetch(GOOGLE_SCRIPT_URL, {
         method: "POST",
